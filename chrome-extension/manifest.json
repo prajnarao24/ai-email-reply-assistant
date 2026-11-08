@@ -10,5 +10,9 @@
       "css": ["styles.css"]
     }
   ],
-  "host_permissions": ["http://localhost:8080/*"]
+  "host_permissions": [
+  "https://mail.google.com/*",
+  "https://ai-email-reply-assistant-qn37.onrender.com/*"
+]
+  
 }
