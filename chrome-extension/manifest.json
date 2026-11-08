@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AI Email Reply Assistant",
+  "version": "1.0",
+  "description": "Generates AI replies inside Gmail",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "host_permissions": ["http://localhost:8080/*"]
+}
